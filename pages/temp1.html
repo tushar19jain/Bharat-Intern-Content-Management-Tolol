@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/temp1.css">
+    <title>Bharat Intern - Content Management Tool Multi blog</title>
+</head>
+<body>
+    <div class="wholeBody">
+        <div id="editingBox">
+           <label for="blogBgc">Select blog background color</label>
+           <input type="color" name="" id="blogBgc"><br>
+           <label for="tilesColor">Select tiles color</label><br>
+           <input type="color" name="" id="tilesBgc"><br>
+           <label for="fonts">Select your font</label>
+           <details>
+            <summary>Choose a font</summary>
+            <li id="fontOne" onclick="selectFontONe()">'Courier New', Courier, monospace</li>
+            <li id="fontTwo"onclick="selectFontTwo()">'Times New Roman', Times, serif</li>
+            <li id="fontThree"onclick="selectFontThree()">Arial, Helvetica, sans-serif</li>
+            <li id="fontFour"onclick="selectFontFour()">Georgia, 'Times New Roman', Times, serif</li>
+            <li id="fontFive"onclick="selectFontFive()">Verdana, Geneva, Tahoma, sans-serif</li>
+           </details>
+           <input onclick="updateBlog()"type="submit" value="Update" id="submitBtn"><br>
+           <input onclick="finalblog()" type="submit" value="Finalize"id="finalBtn"><br>
+           <input onclick="pagereload()" type="submit" value="Reset" id="restoreBtn" id="reset">
+        </form>
+        </div>
+    <div id="container">
+        <header class="multiblogHeader">
+            <div id="logo">
+                <h2 contenteditable="true">Lorem.</h2>
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="leftSideMain">
+                <div id="owerBox">
+                    <div class="ownerPic">
+                        <img src="/assets/user.svg" alt="" srcset="">
+                    </div>
+                    <hr>
+                    <div class="ownerBio">
+                        <p contenteditable="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nulla dolorum corporis eius quidem, obcaecati officiis quas, ratione ipsam molestiae aspernatur aut ullam dolores magni.</p>
+                    </div>
+                    <hr>
+                    <div class="ownerSocialMedia">
+
+                    </div>
+                </div>
+            </div>
+            <div class="rightSideMain">
+                <div id="tabOne">
+                    <div class="tabOneLogo">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/02/14/40/lego-3448508_1280.png" alt="">
+                    </div>
+                    <div class="tabOneiinfo">
+                        <div class="taboneHeading">
+                            <h1 contenteditable="true">Lorem ipsum dolor sit amet consectetur.</h1>
+                        </div>
+                        <div class="tabonePara">
+                            <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia accusantium odit magni laudantium, atque, quae similique quod asperiores explicabo cumque aliquam beatae rem. Quaerat dolor at expedita saepe nesciunt!</p>
+                        </div>  
+                    </div>
+                </div>
+                <div id="tabtwo">
+                    <div class="tabtwologo">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/02/14/40/lego-3448508_1280.png" alt="">
+                    </div>
+                    <div class="tabtwoiinfo">
+                        <div class="taboneHeading">
+                            <h1 contenteditable="true">Lorem ipsum dolor sit amet consectetur.</h1>
+                        </div>
+                        <div class="tabtwoPara">
+                            <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia accusantium odit magni laudantium, atque, quae similique quod asperiores explicabo cumque aliquam beatae rem. Quaerat dolor at expedita saepe nesciunt!</p>
+                        </div>  
+                    </div>
+                </div>
+                <div id="tabthree">
+                    <div class="tabthreeLogo">
+                        <img src="https://cdn.pixabay.com/photo/2018/06/02/14/40/lego-3448508_1280.png" alt="">
+                    </div>
+                    <div class="tabthreeiinfo">
+                        <div class="taboneHeading">
+                            <h1 contenteditable="true">Lorem ipsum dolor sit amet consectetur.</h1>
+                        </div>
+                        <div class="tabthreePara">
+                            <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia accusantium odit magni laudantium, atque, quae similique quod asperiores explicabo cumque aliquam beatae rem. Quaerat dolor at expedita saepe nesciunt!</p>
+                        </div>  
+                    </div>
+                </div>
+                <div id="tabfour">
+                    <div class="tabfourLogo">
+                        <img  src="https://cdn.pixabay.com/photo/2018/06/02/14/40/lego-3448508_1280.png" alt="">
+                    </div>
+                    <div class="tabfouriinfo">
+                        <div class="tabfourHeading">
+                            <h1 contenteditable="true">Lorem ipsum dolor sit amet consectetur.</h1>
+                        </div>
+                        <div class="tabfourPara">
+                            <p contenteditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit mollitia accusantium odit magni laudantium, atque, quae similique quod asperiores explicabo cumque aliquam beatae rem. Quaerat dolor at expedita saepe nesciunt!</p>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+</body>
+<script src="/script/temp1.js"></script>
+</html>

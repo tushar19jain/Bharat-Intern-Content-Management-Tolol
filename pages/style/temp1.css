@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #96fbc4 10%, #f9f586 90%);
+}
+#editingBox {
+    padding: 30px;
+    background-color: #fffffe;
+    box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+    -webkit-box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+    -moz-box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+    margin-top: -574px;
+}
+#editingBox label{
+    background-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+#fontOne{
+    letter-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #8080807a;
+    cursor: pointer;
+}
+#fontTwo{
+    letter-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #8080807a;
+    cursor: pointer;
+
+}
+#fontThree{
+    letter-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #8080807a;
+    cursor: pointer;
+
+}
+#submitBtn{
+    background-color: #adff2f;
+    border: none;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    width: fit-content;
+}
+#restoreBtn{
+    background-color: #ff0000;
+    border: none;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    width: fit-content;
+}
+#finalBtn{
+    background-color: #eaff2f;
+    border: none;
+    letter-spacing: 2px;
+    padding: 8px 10px;
+    width: fit-content;
+}
+#fontFour{
+    letter-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #8080807a;
+    cursor: pointer;
+
+}
+details li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#fontFive{
+    letter-spacing: 2px;
+    margin: 8px;
+    padding: 10px;
+    background-color: #8080807a;
+    cursor: pointer;
+
+}
+#editingBox input{
+    margin: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+}
+.wholeBody{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#container{
+    background-color: #fffffe;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+    -webkit-box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+    -moz-box-shadow: 1px 11px 88px 2px rgba(18,18,18,0.71);
+}
+.multiblogHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+#owerBox{
+    width: 300px;
+    border: 2px solid #121212;
+    margin-top: -537px;
+    background-color: #80808067;
+}
+.ownerPic img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ownerBio p{
+    padding: 15px;
+    word-spacing: 2px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#tabtwo{
+    display: flex;
+    flex-direction: row;
+    margin: 20PX;
+    background-color: #a3a1a1f2;
+}
+#tabOne{
+    display: flex;
+    flex-direction: row;
+    margin: 20PX;
+    background-color: #a3a1a1f2;
+}
+#tabthree{
+    display: flex;
+    flex-direction: row;
+    margin: 20PX;
+    background-color: #a3a1a1f2;
+}
+#tabfour{
+    display: flex;
+    flex-direction: row;
+    margin: 20PX;
+    background-color: #a3a1a1f2;
+}
+.tabOneLogo img{
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px;
+}
+.tabtwologo img{
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px;
+}
+.tabthreeLogo img{
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px;
+}
+.tabfourLogo img{
+    width: 200px;
+    margin-top: 60px;
+    padding: 10px;
+}
+.taboneHeading{
+    padding: 20px;
+}
+.taboneHeading{
+    padding: 20px;
+}
+.tabthreeHeading{
+    padding: 20px;
+}
+.tabfourHeading{
+    padding: 20px;
+}
+.tabonePara{
+    width: 400px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.tabtwoPara{
+    width: 400px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.tabthreePara{
+    width: 400px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.tabfourPara{
+    width: 400px;
+    letter-spacing: 2px;
+    padding: 20px
+}
+.navlinks ul,li{
+    display: flex;
+    gap: 95px;
+    list-style: none;
+}
+ 
